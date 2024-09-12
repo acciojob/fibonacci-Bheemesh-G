@@ -14,7 +14,8 @@ function fibonacci(num) {
 		let fibonacci=0;
 		for(let i=3;i<=num;i++)
 			{
-				fibonacci = var2+i;
+				fibonacci = var2+var1;
+				var1 = var2;
 				var2 = fibonacci;
 			}
 		return fibonacci;
